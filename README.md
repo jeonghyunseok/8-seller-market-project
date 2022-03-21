@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to par-seller-project 👋</h1>
+<h1 align="center">Welcome to 8-seller-project 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> 포트폴리오용 ecommerce  사이트 프로젝트
+> 포트폴리오용 ecommerce 사이트 프로젝트
 
 ## Install
 
@@ -24,11 +24,12 @@ npm run serve
 
 👤 **jeonghyunseok **
 
-* Github: [@jeonghyunseok](https://github.com/jeonghyunseok)
+- Github: [@jeonghyunseok](https://github.com/jeonghyunseok)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

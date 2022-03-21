@@ -18,7 +18,7 @@
                 'font-size': '25px',
                 'font-weight': '600',
               }"
-              >PRE-SELLER-MARKET</span
+              >8-SELLER-MARKET</span
             >
           </div>
         </div>
@@ -57,7 +57,7 @@
         <ul
           class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
         >
-          <li><a href="#" class="navbar-brand">PRE-SELLER 마켓</a></li>
+          <li><a href="#" class="navbar-brand">8-SELLER 마켓</a></li>
           <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
           <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
           <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
