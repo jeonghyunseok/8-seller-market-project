@@ -24,10 +24,19 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [{ src: '@/assets/css/styles.css', lang: 'css' }],
+  css: [
+    { src: '@/assets/css/style.css', lang: 'css' },
+    { src: '@/assets/js/script.js', lang: 'js' },
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '@/plugins/themefisher-font/style.css',
+    '@/plugins/bootstrap/css/bootstrap.min.css',
+    '@/plugins/animate/animate.css',
+    '@/plugins/slick/slick.css',
+    '@/plugins/slick/slick-theme.css',
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -44,8 +53,6 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
@@ -55,14 +62,6 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     // baseURL: '/',
   },
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    manifest: {
-      lang: 'en',
-    },
-  },
-
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
