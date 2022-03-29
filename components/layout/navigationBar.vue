@@ -23,15 +23,14 @@
       <div id="navbar" class="navbar-collapse collapse text-center">
         <ul class="nav navbar-nav">
           <!-- Home -->
-          <li class="dropdown">
-            <a href="index.html">Home</a>
+          <li class="dropdown" @click="$router.push('/')">
+            <a>Home</a>
           </li>
           <!-- / Home -->
 
           <!-- Elements -->
-          <li class="dropdown dropdown-slide">
+          <li @click="$router.push('/shop')" class="dropdown dropdown-slide">
             <a
-              href="#!"
               class="dropdown-toggle"
               data-toggle="dropdown"
               data-hover="dropdown"
