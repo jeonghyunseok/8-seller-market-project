@@ -47,21 +47,8 @@
             <div class="text-center">
               <v-btn href="/shop" class="white--text" outlined>SHOP NOW</v-btn>
             </div>
-
-            <!--            <v-expand-transition>-->
-            <!--              <div-->
-            <!--                v-if="hover"-->
-            <!--                class="d-flex transition-fast-in-fast-out orange darken-2 v-card&#45;&#45;reveal display-3 white&#45;&#45;text"-->
-            <!--                style="height: 100%;"-->
-            <!--              >-->
-
-            <!--                <h3>Top Picks</h3><br/>-->
-            <!--                <h3>sdfs</h3>-->
-            <!--              </div>-->
-            <!--            </v-expand-transition>-->
           </v-img>
         </v-card>
-        <!--        </v-hover>-->
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12">
         <v-card>
@@ -249,8 +236,8 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-card class="accent">
-      <v-container>
+    <v-card>
+      <v-container class="mp-4">
         <v-row no-gutters>
           <v-col class="col-12 col-md-4 col-sm-12">
             <v-row>
