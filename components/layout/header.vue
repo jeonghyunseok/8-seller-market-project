@@ -33,12 +33,12 @@
       <v-btn icon>
         <v-icon>mdi-account-circle</v-icon>
       </v-btn>
-      <v-btn v-on="on" icon>
+      <v-btn @click="onBtn" icon>
         <v-badge content="2" value="2" color="green" overlap>
           <v-icon>mdi-bell</v-icon>
         </v-badge>
       </v-btn>
-      <v-btn v-on="on" href="/cart" icon>
+      <v-btn @click="onBtn" href="/cart" icon>
         <v-badge content="2" value="2" color="green" overlap>
           <v-icon>mdi-cart</v-icon>
         </v-badge>
@@ -49,5 +49,10 @@
 <script>
 export default {
   name: 'Header',
+  methods: {
+    onBtn() {
+      console.log('onBtn')
+    },
+  },
 }
 </script>

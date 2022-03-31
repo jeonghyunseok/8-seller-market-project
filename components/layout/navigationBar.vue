@@ -1,5 +1,5 @@
 <template>
-  <v-content>
+  <v-main>
     <v-bottom-navigation :value="activeBtn" color="primary" horizontal>
       <a href="/" class="v-btn">
         <span>Home</span>
@@ -23,7 +23,7 @@
         <span>Blog</span>
       </v-btn>
     </v-bottom-navigation>
-  </v-content>
+  </v-main>
 </template>
 <script>
 export default {
