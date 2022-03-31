@@ -34,9 +34,6 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content',
-    // vuetify
     '@nuxtjs/vuetify',
   ],
 
@@ -52,12 +49,10 @@ export default {
       lang: 'en',
     },
   },
-
-  // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    cache: true,
+  },
   server: {
     port: 3001,
     host: '0.0.0.0',
