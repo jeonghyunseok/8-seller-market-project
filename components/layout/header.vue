@@ -56,3 +56,13 @@ export default {
   },
 }
 </script>
+<style lang="scss" scoped>
+.text-left {
+  .title {
+    font-family: 'Merriweather';
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 0.25rem;
+  }
+}
+</style>
